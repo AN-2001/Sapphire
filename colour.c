@@ -54,6 +54,7 @@ Palette paletteLoad(const char *csvPath){
 
 }
 void paletteFree(Palette p){
+	free(p->p);
 	free(p);
 }
 void paletteSet(Palette p){

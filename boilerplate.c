@@ -3,7 +3,7 @@
 
 // progress bar stuff //
 #define NUM_PROGRESS_BARS 40
-#define PRINT_PERIOD 5
+#define PRINT_PERIOD 1
 #define FULL '='
 #define ARROW '>'
 #define EMPTY '-'

@@ -5,7 +5,7 @@
 #define GRID_SIZE 1
 #define W (WIDTH / GRID_SIZE)
 #define H (HEIGHT / GRID_SIZE) 
-#define NUM_ITERS 400
+#define NUM_ITERS 500
 
 
 // argument stuff

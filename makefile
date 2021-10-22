@@ -1,5 +1,5 @@
 cc := gcc
-flags := -Wall -Werror -pedantic-errors
+flags := -Wall -Werror -pedantic-errors 
 libs := -lgd -lm
 obj := colour.o boilerplate.o
 proj := sapphire
@@ -20,5 +20,5 @@ cleanPng:
 cleanAll:
 	rm $(proj) $(obj) *.png *.mp4
 encode:
-	imageToVideo .
+	./scripts/imageToVideo .
 	

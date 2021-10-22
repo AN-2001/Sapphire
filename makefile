@@ -20,5 +20,5 @@ cleanPng:
 cleanAll:
 	rm $(proj) $(obj) *.png *.mp4
 encode:
-	./scripts/imageToVideo .
+	./scripts/imageToVideo.sh .
 	

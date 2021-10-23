@@ -12,8 +12,8 @@
 #define D2 0.445f
 #define ALPHAM 0.028f
 #define ALPHAN 0.147f
-#define RA 1
-#define DT 0.15f
+#define RA 16
+#define DT 0.2f
 #define IS_VALID(x, y) (((x) >= 0 && (x) < W) && ((y) >= 0 && (y) < H))
 Colour interpPalette(float v);
 float s(float m, float n);

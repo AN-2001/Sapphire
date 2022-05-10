@@ -9,3 +9,5 @@ a smooth life visualiser
 ![gif!](docs/ex2.gif)
 ![gif!](docs/ex3.gif)
 ![gif!](docs/ex4.gif)
+
+## This repo is supported by my gemstrone project
